@@ -14,8 +14,11 @@ const connect = function () {
     console.log('connecting Estalbished')
 
     conn.write('Name: JR')
-  })
 
+  })
+  conn.on('data', message => {
+    console.log(message)
+  })
   return conn;
 };
 
