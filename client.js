@@ -13,7 +13,6 @@ const connect = function () {
   conn.on('connect', () => {
     console.log('connecting Estalbished')
 
-    conn.write('Name: JR')
   })
 
   return conn;
