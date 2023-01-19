@@ -36,10 +36,6 @@ const handleUserInput = (key) => {
   })
 }
 
-// const MOVE_UP_KEY = 'w';
-// const MOVE_LEFT_KEY = 'a';
-// const MOVE_DOWN_KEY = 's';
-// const MOVE_RIGHT_KEY = 'd';
 
 handleUserInput();
 setupInput();
